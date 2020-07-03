@@ -34,5 +34,38 @@
     text-align: right;
 }
 
+header i {
+    padding: 5px;
+}
+
+.interaction-nav .container .contact p {
+    display: inline-block;
+}
+
+.interaction-nav .container .contact p span {
+    margin: 20px;
+}
+
+.login-nav i {
+    color: #0aa8c0;
+    padding: 20px;
+}
+
+.transparent-btn {
+    background-color: #fafcfe;
+    padding: 2% 5%;
+    color: #fe775a;
+    border: #fe775a 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.orange-btn {
+    background-color: #fe775a;
+    padding: 2% 5%;
+    color: #fafcfe;
+    border-radius: 10px;
+    margin: 10px;
+}
 
 /*/navbars style*/
