@@ -11,9 +11,15 @@
     margin: auto;
 }
 
+.clearfix:after{ 
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* /general style */
 
-/*navbars style*/
+/*interaction navbar style*/
 .interaction-nav {
     background-color: #f4f9fd;
     height: 8vh;
@@ -34,7 +40,7 @@
     text-align: right;
 }
 
-header i {
+i {
     padding: 5px;
 }
 
@@ -45,7 +51,7 @@ header i {
 .interaction-nav .container .contact p span {
     margin: 20px;
 }
-
+clearfix
 .login-nav i {
     color: #0aa8c0;
     padding: 20px;
@@ -68,4 +74,43 @@ header i {
     margin: 10px;
 }
 
-/*/navbars style*/
+/*/interaction navbar style*/
+
+/*navigation navbar*/
+
+.navigation-nav {
+    height: 8vh;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    width: 10%;
+    height: 8vh;
+}
+
+.logo img{
+    position: absolute;
+    top: 50%;
+    left: 10vw;
+    transform: translateY(-50%);
+}
+
+.information-nav {
+    float: left;
+    width: 90%;
+    height: 8vh;
+    text-align: right;
+}
+
+.information-nav ul {
+    list-style: none;
+    line-height: 8vh;
+}
+
+.information-nav li{
+    display: inline-block;
+    padding: 0% 1%;
+}
+
+/*/navigation navbar*/
