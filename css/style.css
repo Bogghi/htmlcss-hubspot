@@ -153,3 +153,13 @@ clearfix
 }
 
 /* /background header style */
+
+/* just a green grass */
+
+.green-grass {
+    height: 8vh;
+    background-color: #afebe4;
+    border-bottom: #33475b 3px solid;
+}
+
+/* /just a green grass */
