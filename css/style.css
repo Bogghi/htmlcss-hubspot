@@ -1,0 +1,38 @@
+/* general style */
+* {
+    border: 0px;
+    margin: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* /general style */
+
+/*navbars style*/
+.interaction-nav {
+    background-color: #f4f9fd;
+    height: 8vh;
+    position: relative;
+    border-bottom: 1px #7e8d98 solid;
+}
+
+.interaction-nav .container .contact{
+    width: 70%;
+    line-height: 8vh;
+    float: left;
+}
+
+.interaction-nav .container .login-nav{
+    width: 30%;
+    line-height: 8vh;
+    float: left;
+    text-align: right;
+}
+
+
+/*/navbars style*/
