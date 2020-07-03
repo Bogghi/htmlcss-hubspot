@@ -114,3 +114,42 @@ clearfix
 }
 
 /*/navigation navbar*/
+
+/* background header style */
+
+.header-background {
+    background-image: url(../img/jumbotron.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 68%;
+    position: relative;
+    border-bottom: #33475b 3px solid;
+}
+
+.header-to-fix {
+    position: absolute;
+    top: 10%;
+}
+
+.header-background .header-text {
+    width: 50%;
+}
+
+.header-background h1 {
+    font-size: 60px;
+    color: #33475b;
+}
+
+.header-background p {
+    color: #33475b;
+    padding: 20px 0px;
+    line-height: 40px;
+}
+
+.bigger {
+    font-size: 20px;
+    margin-left: 0%;
+}
+
+/* /background header style */
