@@ -163,3 +163,29 @@ clearfix
 }
 
 /* /just a green grass */
+
+/* introduction main style */
+
+.main-introduction {
+    background-color: #f4f9fd;
+    text-align: center;
+}
+
+.main-introduction img {
+    width: 30%;
+    padding: 3%;
+}
+
+.main-introduction h2 {
+    color: #33475b;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.main-introduction p {
+    width: 60%;
+    margin: auto;
+    line-height: 30px;
+}
+
+/* /introduction main style */
