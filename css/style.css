@@ -4,6 +4,7 @@
     margin: 0px;
     font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
+    color: #33475b;
 }
 
 .container {
@@ -138,11 +139,10 @@ clearfix
 
 .header-background h1 {
     font-size: 60px;
-    color: #33475b;
 }
 
 .header-background p {
-    color: #33475b;
+    
     padding: 20px 0px;
     line-height: 40px;
 }
@@ -166,7 +166,7 @@ clearfix
 
 /* introduction main style */
 
-.main-introduction {
+main {
     background-color: #f4f9fd;
     text-align: center;
 }
@@ -177,7 +177,7 @@ clearfix
 }
 
 .main-introduction h2 {
-    color: #33475b;
+    
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -189,3 +189,59 @@ clearfix
 }
 
 /* /introduction main style */
+
+/* main insertion style */
+
+.main-insertion {
+    background-color: white;
+    position: relative;
+    margin: 4% 10% 4% 10%;
+    box-shadow: 0 0 10px #e6ecf1;
+}
+
+.insertion-img {
+    float: left;
+    width: 30%;
+    margin-bottom: 5%;
+}
+
+.insertion-img img {
+    width: 70%;
+    margin: 10%;
+    padding: 10%;
+}
+
+.insertion-img button {
+    padding: 5% 10%;
+    font-size: 20px;
+}
+
+.insertion-text {
+    float: left;
+    width: 70%;
+    text-align: left;
+}
+
+.insertion-text h2 {
+    font-size: 30px;
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+
+.insertion-text p {
+    line-height: 50px;
+    display: inline-block;
+}
+
+.insertion-text i {
+    color: #fe775a;
+}
+
+.insertion-text hr{
+    border: solid 1px #899397;
+    display: inline-block;
+    width: 70%;
+    margin-left: 5%;
+}
+
+/* /main insertion style */
