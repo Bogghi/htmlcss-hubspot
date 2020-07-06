@@ -18,6 +18,11 @@
     clear: both;
 }
 
+.insertion-button {
+    padding: 5% 10%;
+    font-size: 20px;
+}
+
 /* /general style */
 
 /*interaction navbar style*/
@@ -69,10 +74,14 @@ clearfix
 
 .orange-btn {
     background-color: #fe775a;
-    padding: 2% 5%;
+    margin-bottom: 3%;
     color: #fafcfe;
     border-radius: 10px;
     margin: 10px;
+}
+
+.login-nav button.orange-btn{
+    padding: 2% 5%;
 }
 
 /*/interaction navbar style*/
@@ -211,11 +220,6 @@ main {
     padding: 10%;
 }
 
-.insertion-img button {
-    padding: 5% 10%;
-    font-size: 20px;
-}
-
 .insertion-text {
     float: left;
     width: 70%;
@@ -237,6 +241,10 @@ main {
     color: #fe775a;
 }
 
+.insertion-text h3 {
+    display: inline-block;
+}
+
 .insertion-text hr{
     border: solid 1px #899397;
     display: inline-block;
@@ -244,4 +252,69 @@ main {
     margin-left: 5%;
 }
 
+.separation {
+    margin: 2% 0%;
+}
+
 /* /main insertion style */
+
+/* secondary main insertion style */
+
+.second-insertion {
+    position: relative;
+}
+
+.insertion-feature {
+    float: left;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 0 10px #e6ecf1;
+    padding-bottom: 2vh;
+}
+
+.insertion-feature img{
+    width: 30%;
+    margin: auto;
+    padding: 5% 0% 5% 0%;
+}
+
+.insertion-feature h2 {
+    font-size: 30px;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+.insertion-feature h3 {
+    margin-bottom: 5%;
+}
+.insertion-feature #insertion-details{
+    line-height: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+.insertion-feature hr{
+    border: solid 1px #899397;
+    width: 70%;
+    display: inline-block;
+    margin: 6vh 1vw 4vh 1vw;
+}
+
+.single-line-ftr {
+    text-align: left;
+    margin-left: 15%;
+}
+
+.single-line-ftr i {
+    color: #fe775a;
+}
+
+.single-line-ftr p{
+    display: inline-block;
+}
+
+.insertion-feature button {
+    margin-top: 6%;
+}
+
+/* /secondary main insertion style */
