@@ -391,4 +391,34 @@ main {
     margin: 0px 20px;
 }
 
+.parter-ingaging-section{
+    position: relative;
+}
+
+.ingage-text {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-right: 15%;
+}
+
+.ingage-img {
+    float: left;
+    width: 50%;
+}
+
+.ingage-text h2 {
+    font-size: 50px;
+    margin-bottom: 5vh;
+}
+
+.ingage-text p {
+    line-height: 3vh;
+    margin-bottom: 5vh;
+}
+
+.ingage-text button {
+    margin-bottom: 5vh;
+}
+
 /* /partner-info-section */
