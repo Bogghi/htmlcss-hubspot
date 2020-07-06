@@ -186,7 +186,6 @@ main {
 }
 
 .main-introduction h2 {
-    
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -263,6 +262,7 @@ main {
 
 .second-insertion {
     position: relative;
+    margin-bottom: 7vh;
 }
 
 .insertion-feature {
@@ -325,3 +325,70 @@ main {
     margin-top: 6%;
 }
 /* /secondary main insertion style */
+
+/* gradient-section-with-statistics */
+
+.gradient-section-with-statistics {
+    background-image: linear-gradient(to right,#00a9b9,#00bba8);
+    color: white;
+}
+
+.gradient-section-with-statistics h2 {
+    font-size: 30px;
+    color: white;
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+}
+
+.gradient-section-with-statistics p {
+    width: 80%;
+    margin: auto;
+    color: white;
+    padding-bottom: 4vh;
+    line-height: 3vh;
+}
+
+.gradient-section-with-statistics table{
+    border-color: white 1px solid;
+}
+
+/* /gradient-section-with-statistics */
+
+/* partner-info-section */
+
+.partner-info-section {
+    position: relative;
+    margin-top: 8vh;
+}
+
+.data-section {
+    float: left;
+    width: 30%;
+}
+
+.partner-half h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.partner-half p{
+    line-height: 3vh;
+    text-align: left;
+    margin-left: 35%;
+}
+
+.partner-img {
+    float: left;
+    width: 70%;
+    padding: 0% 10% 0% 10%;
+    margin-bottom: 5%;
+}
+
+.partner-img img{
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+    margin: 0px 20px;
+}
+
+/* /partner-info-section */
