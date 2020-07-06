@@ -206,6 +206,7 @@ main {
     position: relative;
     margin: 4% 10% 4% 10%;
     box-shadow: 0 0 10px #e6ecf1;
+    border-radius: 10px;
 }
 
 .insertion-img {
@@ -270,10 +271,17 @@ main {
     background-color: white;
     box-shadow: 0 0 10px #e6ecf1;
     padding-bottom: 2vh;
+    border-radius: 10px;
+}
+
+.spacer {
+    float: left;
+    margin: 2.5%;
 }
 
 .insertion-feature img{
-    width: 30%;
+    width: 250x;
+    height: 250px;
     margin: auto;
     padding: 5% 0% 5% 0%;
 }
@@ -316,5 +324,4 @@ main {
 .insertion-feature button {
     margin-top: 6%;
 }
-
 /* /secondary main insertion style */
