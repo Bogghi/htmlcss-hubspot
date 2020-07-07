@@ -417,6 +417,7 @@ td {
 .data-section {
     float: left;
     width: 30%;
+    margin-top: 2vh;
 }
 
 .partner-half h2{
