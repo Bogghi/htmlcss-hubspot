@@ -426,3 +426,68 @@ main {
 }
 
 /* /partner-info-section */
+
+/* footer index style */
+
+footer {
+    background-color: #32495b;
+}
+
+.footer-index h3{
+    color: white;
+    position: relative;
+    line-height: 10vh;
+    font-size: 25px;
+}
+
+.footer-index li{
+    color: white;
+    line-height: 3vh;
+}
+
+.index-section {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+.index-section ul {
+    list-style: none;
+    margin-left: -8%;
+}
+
+.social i {
+    color: white;
+    width: 8%;
+    height: 10%;
+    margin: 1% 1% 1% 0%;
+}
+
+.footer-btn {
+    padding: 3%;
+    border-radius: 6px;
+    margin: 2% 0%;
+}
+
+.language {
+    text-align: center;
+}
+
+.language ul {
+    list-style: none;
+    margin-left: -8%;
+}
+
+.language li{
+    color: white;
+    display: inline-block;
+    line-height: 3vh;
+    padding: 0% 1%;
+}
+
+.footer-closing-section hr {
+    border: 1px solid white;
+    margin-top: 2vh;
+}
+
+/* /footer index style */
