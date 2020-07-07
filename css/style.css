@@ -490,4 +490,35 @@ footer {
     margin-top: 2vh;
 }
 
+.legal-section {
+    position: relative;
+}
+
+.footer-logo {
+    float: left;
+    width: 50%;
+    padding: 3vh;
+}
+
+.legal {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.legal p {
+    color: #cbd6e2;
+    display: inline;
+    line-height: 10vh;
+    padding: 0% 3%;
+}
+
+.footer-logo p {
+    color: white;
+}
+
+.footer-logo i {
+    color: white;
+}
+
 /* /footer index style */
