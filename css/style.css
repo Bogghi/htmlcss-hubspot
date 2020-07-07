@@ -57,7 +57,7 @@ i {
 .interaction-nav .container .contact p span {
     margin: 20px;
 }
-clearfix
+
 .login-nav i {
     color: #0aa8c0;
     padding: 20px;
@@ -352,6 +352,59 @@ main {
     border-color: white 1px solid;
 }
 
+table{
+    width: 100%;
+    margin-bottom: 5vh;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px white solid;
+    width: 25%;
+    height: 10vh;
+    vertical-align: top;
+}
+
+.first-row td{
+    border-top: none;
+}
+
+.first-row td:first-child{
+    border-left: none;
+}
+
+.first-row td:last-child{
+    border-right: none;
+}
+
+.second-row td{
+    border-bottom: none;
+}
+
+.second-row td:first-child{
+    border-left: none;
+}
+
+.second-row td:last-child{
+    border-right: none;
+}
+
+.table-of-stats img{
+    width: 200px;
+    height: 50px;
+    margin-top: 1vh;
+}
+
+.table-of-stats h3 {
+    color: white;
+    font-size: 50px;
+    margin-top: 1vh;
+}
+
+.table-of-stats span {
+    color: white;
+    line-height: 5vh;
+}
 /* /gradient-section-with-statistics */
 
 /* partner-info-section */
