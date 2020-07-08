@@ -2,9 +2,12 @@
 * {
     border: 0px;
     margin: 0px;
-    font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
+}
+
+body {
     color: #33475b;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
@@ -28,20 +31,20 @@
 /*interaction navbar style*/
 .interaction-nav {
     background-color: #f4f9fd;
-    height: 8vh;
+    height: 100px;
     position: relative;
     border-bottom: 1px #7e8d98 solid;
 }
 
 .interaction-nav .container .contact{
     width: 70%;
-    line-height: 8vh;
+    line-height: 100px;
     float: left;
 }
 
 .interaction-nav .container .login-nav{
     width: 30%;
-    line-height: 8vh;
+    line-height: 100px;
     float: left;
     text-align: right;
 }
@@ -89,14 +92,14 @@ i {
 /*navigation navbar*/
 
 .navigation-nav {
-    height: 8vh;
+    height: 100px;
     position: relative;
 }
 
 .logo {
     float: left;
     width: 10%;
-    height: 8vh;
+    height: 100px;
 }
 
 .logo img{
@@ -109,13 +112,13 @@ i {
 .information-nav {
     float: left;
     width: 90%;
-    height: 8vh;
+    height: 100px;
     text-align: right;
 }
 
 .information-nav ul {
     list-style: none;
-    line-height: 8vh;
+    line-height: 100px;
 }
 
 .information-nav li{
@@ -129,7 +132,7 @@ i {
 
 .header-background {
     background-image: url(../img/jumbotron.png);
-    height: 60vh;
+    height: 765px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0% 68%;
