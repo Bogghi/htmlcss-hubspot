@@ -83,6 +83,20 @@ i {
     margin: 10px;
 }
 
+.contact ul {
+    list-style: none;
+    margin-left: -3%;
+}
+
+.contact li {
+    display: inline-block;
+}
+
+.contact li span {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
 .login-nav button.orange-btn{
     padding: 2% 5%;
 }
